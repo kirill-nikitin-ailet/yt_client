@@ -1,5 +1,6 @@
 # flake8: noqa E501
 from asyncio import get_event_loop
+from datetime import date
 from typing import TYPE_CHECKING, Awaitable, List
 
 from fastapi.encoders import jsonable_encoder
